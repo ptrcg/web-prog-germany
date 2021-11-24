@@ -172,3 +172,40 @@ h3{
     bottom: 49%;
     opacity: 1;
 }
+/*-------- culture --------*/
+.culture{
+    width: 80%;
+    margin:auto;
+    text-align: center;
+    padding-top: 100px;
+}
+.culture-col{
+    flex-basis: 31%;
+    border-radius: 10px;
+    margin-bottom: 5%;
+    text-align: left;
+}
+.culture-col img{
+    width: 100%;
+    border-radius: 10px;
+}
+.culture-col p{
+    padding:0;
+}
+.culture-col h3{
+    margin-top: 16px;
+    margin-bottom: 15px;
+    text-align:left;
+}
+/*-------- footer --------*/
+.footer{
+    width: 100%;
+    text-align: center;
+    padding:30px 0;
+
+}
+.footer h4{
+    margin-bottom: 25px;
+    margin-top: 20px;
+    font-weight: 600;
+}
