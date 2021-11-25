@@ -116,13 +116,89 @@ p {
   box-sizing: border-box;
   transition: 0.5s;
 }
-h3 {
+.about-col-black {
+  flex-basis: 31%;
+  background: #1e1e1e;
+  border-radius: 10px;
+  margin-bottom: 5%;
+  padding: 20px 12px;
+  box-sizing: border-box;
+  transition: 0.5s;
+}
+.about-col-red {
+  flex-basis: 31%;
+  background: #da4e4e;
+  border-radius: 10px;
+  margin-bottom: 5%;
+  padding: 20px 12px;
+  box-sizing: border-box;
+  transition: 0.5s;
+}
+.about-col-yellow {
+  flex-basis: 31%;
+  background: #ffdf58;
+  border-radius: 10px;
+  margin-bottom: 5%;
+  padding: 20px 12px;
+  box-sizing: border-box;
+  transition: 0.5s;
+}
+.about-col-black h3 {
+  color: #fff;
   text-align: center;
   font-weight: 600;
   margin: 10px 0;
 }
+.about-col-black p {
+  color: #fff;
+  font-size: 14px;
+  font-weight: 300;
+  line-height: 22px;
+  padding: 10px;
+}
+h3 {
+  color: #000;
+  text-align: center;
+  font-weight: 600;
+  margin: 10px 0;
+}
+.about-col-red h3 {
+  color: #000;
+  text-align: center;
+  font-weight: 600;
+  margin: 10px 0;
+}
+.about-col-red p {
+  color: #000;
+  font-size: 14px;
+  font-weight: 300;
+  line-height: 22px;
+  padding: 10px;
+}
+.about-col-yellow h3 {
+  color: #000;
+  text-align: center;
+  font-weight: 600;
+  margin: 10px 0;
+}
+.about-col-yellow p {
+  color: #000;
+  font-size: 14px;
+  font-weight: 300;
+  line-height: 22px;
+  padding: 10px;
+}
 .about-col:hover {
   box-shadow: 0 0 20px 0px rgba(0, 0, 0, 0.2);
+}
+.about-col-black:hover {
+  box-shadow: 0 0 20px 0px rgba(0, 0, 0);
+}
+.about-col-red:hover {
+  box-shadow: 0 0 20px 0px rgb(228, 18, 18);
+}
+.about-col-yellow:hover {
+  box-shadow: 0 0 20px 0px rgb(253, 207, 0);
 }
 
 /*--------attractions --------*/
@@ -158,8 +234,8 @@ h3 {
 }
 .layer h3 {
   width: 100%;
-  font-weight: 500;
-  color: #fff;
+  font-weight: 700;
+  color: #000;
   font-size: 26px;
   bottom: 0;
   left: 50%;
@@ -169,7 +245,23 @@ h3 {
   transition: 0.5s;
 }
 .layer:hover h3 {
-  bottom: 49%;
+  bottom: 45%;
+  opacity: 1;
+}
+.layer p {
+  width: 100%;
+  font-weight: 320;
+  color: #000;
+  font-size: 26px;
+  bottom: 0;
+  left: 50%;
+  transform: translateX(-50%);
+  position: absolute;
+  opacity: 0;
+  transition: 0.5s;
+}
+.layer:hover p {
+  bottom: 40%;
   opacity: 1;
 }
 /*-------- culture --------*/
