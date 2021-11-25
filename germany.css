@@ -203,18 +203,25 @@ h3 {
   width: 80%;
   margin: auto;
   text-align: center;
-  padding-top: 50px;
+  padding-top: 100px;
 }
 .festivals-col {
-  flex-basis: 32%;
+  flex-basis: 31%;
   border-radius: 10px;
-  margin-bottom: 30px;
-  position: relative;
-  overflow: hidden;
+  margin-bottom: 5%;
+  text-align: left;
 }
 .festivals-col img {
   width: 100%;
-  display: block;
+  border-radius: 10px;
+}
+.festivals-col p {
+  padding: 0;
+}
+.festivals-col h3 {
+  margin-top: 16px;
+  margin-bottom: 15px;
+  text-align: left;
 }
 /*-------- footer --------*/
 .footer {
